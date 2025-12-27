@@ -1,0 +1,27 @@
+/* Main website styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style: none;
+    background: #2e7d32;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #1b5e20;
+}
