@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Eco-friendly sustainable lifestyle products">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenLife Store | Home</title>
+    <meta name="description" content="GreenLife Store – Sustainable lifestyle & eco‑friendly products">
+    <title>GreenLife Store | Sustainable Living</title>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Internal CSS -->
+    <!-- Internal CSS (page‑specific hero styling) -->
     <style>
-        /* Home page banner styling */
+        /* Hero section styling inspired by modern agri‑stores */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/hero.jpg') center/cover no-repeat;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
         .banner { background-color:#e8f5e9; padding:30px; text-align:center; }
     </style>
 </head>
 <body>
 
-<!-- Navigation Bar -->
+<!-- ================= NAVIGATION BAR ================= -->
 <nav>
+    <div class="logo">GreenLife</div>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
@@ -28,11 +35,27 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
-
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+    <h1>Sustainable Products for a Greener Tomorrow</h1>
+    <p>Eco‑friendly solutions for everyday living</p>
+    <a href="products.html" class="hero-btn">Shop Now</a>
+</section>
 <div class="banner">
     <h1>Welcome to GreenLife Store 🌱</h1>
     <p>Your one‑stop shop for sustainable lifestyle products.</p>
 </div>
+
+<!-- ================= CATEGORY HIGHLIGHTS ================= -->
+<section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+        <div class="category-card">Personal Care</div>
+        <div class="category-card">Kitchen Essentials</div>
+        <div class="category-card">Reusable Products</div>
+        <div class="category-card">Renewable Energy</div>
+    </div>
+</section>
 
 <section>
     <h2>Website Overview</h2>
@@ -45,6 +68,7 @@
         <li>Functional contact form</li>
     </ul>
 </section>
+
 <section class="product-catalog">
     <h2>Featured Sustainable Products</h2>
 
@@ -90,6 +114,19 @@
         <em>Explore more products on the <a href="products.html">Products page</a>.</em>
     </p>
 </section>
+
+<!-- ================= TRUST / INFO SECTION ================= -->
+<section class="highlights">
+    <div class="highlight">🌱 100% Eco‑Friendly</div>
+    <div class="highlight">🚚 Fast Local Delivery</div>
+    <div class="highlight">♻️ Sustainable Packaging</div>
+    <div class="highlight">💬 Customer Support</div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>&copy; 2025 GreenLife Store | Sustainable Living</p>
+</footer>
 
 <script src="js/script.js"></script>
 </body>
